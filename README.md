@@ -1,4 +1,4 @@
-# Hospital-System-Design-Network
+# Hospital-System-Network-Design
 
 **Objective**
 
