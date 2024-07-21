@@ -1,6 +1,11 @@
 # Hospital-System-Design-Network
+
+**Objective**
+
 The motivation of this project is to design a Hospital System Network and meet all the requirements of infrastructure. All the departments will be on a separate network segment and Access Control Lists and Virtual Private Network (VPN) is also implemented to enable secure communication considering security and network performance factors.
+
 **Details of design**
+
 As mentioned earlier, for network cost-effectiveness, each site is expected to have one core router, two multilayer switches, and several access switches connecting each department.
 Each department is required to have a wireless network for the users.
 Every department in HQ is estimated to have around 60 users while in Branch to have 30 users.
@@ -12,7 +17,9 @@ Configure SSH in all the routers and layer three switches for remote login.
 Configure port-security for the server site department switch to allow only one device to connect to a switch port, use sticky method to obtain mac-address and violation mode shutdown.
 Configure the extended ACL rule together with site-to-site VPN (IPSec VPN) to create a tunnel and encrypt communication between HQ and the Branch network.
 Configure PAT to use the respective outbound router interface IPv4 address, and implement the necessary ACL rule.
+
 **Network Technology implementation sequence**
+
 1. Hierarchical Network Design
 2. Connecting Networking devices with Correct cabling
 3. Configuring Basic device settings such as hostnames, console password, enable password, banner messages, and disable IP domain lookup and SSH for secure Remote access on Switches and Routers
