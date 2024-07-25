@@ -6,7 +6,11 @@ The motivation of this project is to design a Hospital System Network and meet a
 
 **Details of design**
 
-As mentioned earlier, for network cost-effectiveness, each site is expected to have one core router, two multilayer switches, and several access switches connecting each department.
+The Hospital System has two locations and 6 departments within both locations. The main 
+headquarter includes Medical Lead Operation & Consultancy Services (MLOCS), Medical Emergency and 
+Reporting (MER), Medical Records Management (MRM), Information Technology (IT), and Customer 
+Service (CS). The branch headquarter includes Nurses & Surgery Operations (NSO), Hospital Labs (HL), Human 
+resource (HR), Marketing (MK), and Finance (FIN). One department of Guest Waiting Area (GWA) in both locations.
 Each department is required to have a wireless network for the users.
 Every department in HQ is estimated to have around 60 users while in Branch to have 30 users.
 Each department should be in a different VLAN and a different subnetwork.
